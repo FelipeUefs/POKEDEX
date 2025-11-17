@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Pokedex',
-      /// Define o tema visual, usando Material 3 com a cor vermelha como base.
+      /// Define o tema visual, usando a cor vermelha como base.
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
